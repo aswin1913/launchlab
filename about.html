@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>About Us</title>
+<style>
+      body {
+         background-image: url('assets/img/login-bg.png');
+         background-size: cover;
+         background-position: center;
+         background-attachment: fixed;
+         margin: 0;
+         padding: 0;
+         font-family: Arial, sans-serif;
+      }
+   </style>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" href="images/icon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">LAUNCH LAB</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="Search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+         <div id="logout-btn" class="fas fa-sign-out-alt" onclick="index()"></div>
+
+        
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">James</h3>
+         <p class="role">Student</p>
+         <a href="profile.html" class="btn">View profile</a>
+         <div class="flex-btn">
+            <a href="index.html" class="option-btn">Login</a>
+            <a href="index.html" class="option-btn">Register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">James</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">View profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+   </nav>
+
+</div>
+
+<section class="about">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/about-img.svg" alt="">
+      </div>
+
+      <div class="content">
+         <h3 style="color: white;">Why choose us?</h3>
+         <p style="color: white;">Educational Enhancement and Skill Development: Provides an interactive learning tool that complements
+            traditional teaching methods, helping to reinforce and expand students' knowledge. Users and developers
+            involved in the project can gain valuable skills in programming, 3D modelling, and user experience design.
+            Interactive Learning: Facilitates hands-on learning experiences where students can experiment with different
+            variables and see their effects.</p>
+         <a href="courses.html" class="inline-btn">Our courses</a>
+      </div>
+
+   </div>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
